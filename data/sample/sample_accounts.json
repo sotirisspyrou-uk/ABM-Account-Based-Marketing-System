@@ -1,0 +1,32 @@
+[
+  {
+    "company_id": "techcorp_manufacturing",
+    "company_name": "TechCorp Manufacturing Ltd",
+    "industry": "manufacturing",
+    "revenue": "£25M",
+    "employees": 150,
+    "location": "Birmingham, UK",
+    "founded": 2015,
+    "description": "Industrial equipment manufacturer specializing in green energy solutions"
+  },
+  {
+    "company_id": "innovative_engineering",
+    "company_name": "Innovative Engineering Solutions",
+    "industry": "manufacturing", 
+    "revenue": "£12M",
+    "employees": 85,
+    "location": "Manchester, UK",
+    "founded": 2018,
+    "description": "Precision engineering for automotive and aerospace industries"
+  },
+  {
+    "company_id": "digital_dynamics",
+    "company_name": "Digital Dynamics Ltd",
+    "industry": "technology",
+    "revenue": "£8M",
+    "employees": 45,
+    "location": "London, UK", 
+    "founded": 2020,
+    "description": "AI-powered software solutions for enterprise clients"
+  }
+]

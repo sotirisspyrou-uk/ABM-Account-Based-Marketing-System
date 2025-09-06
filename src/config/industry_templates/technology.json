@@ -1,0 +1,27 @@
+{
+  "industry": "technology",
+  "characteristics": {
+    "typical_revenue_range": "£500K-£25M",
+    "decision_cycle": "3-6 months",
+    "key_personas": ["CEO", "CTO", "Head of Finance"],
+    "communication_style": "innovative_direct"
+  },
+  "pain_points": [
+    "growth_capital",
+    "bridge_financing",
+    "talent_acquisition_funding",
+    "product_development_capital"
+  ],
+  "value_propositions": [
+    "Growth capital for scaling",
+    "Bridge funding between rounds",
+    "Fast decisions for opportunities",
+    "Technology sector expertise"
+  ],
+  "content_themes": [
+    "scaling_innovation",
+    "competitive_positioning",
+    "talent_acquisition",
+    "market_expansion"
+  ]
+}

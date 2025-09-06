@@ -1,0 +1,87 @@
+{
+  "project": {
+    "name": "ABM AI Agent",
+    "version": "1.0.0",
+    "description": "Configurable Account-Based Marketing AI System",
+    "author": "Sotiris Spyrou, CEO, VerityAI",
+    "created": "2025-09-05"
+  },
+  "system": {
+    "environment": "development",
+    "debug": true,
+    "logging_level": "INFO",
+    "api_rate_limits": {
+      "openai": 60,
+      "anthropic": 50
+    }
+  },
+  "target_market": {
+    "industry": "manufacturing",
+    "company_size_range": "£1M-£50M",
+    "geography": "UK",
+    "decision_makers": ["CEO", "CFO", "Operations Director"],
+    "typical_pain_points": [
+      "expansion_capital",
+      "equipment_financing", 
+      "cash_flow_optimization",
+      "supply_chain_financing"
+    ]
+  },
+  "ai_models": {
+    "provider": "openai",
+    "models": {
+      "account_intelligence": "gpt-4",
+      "content_generation": "gpt-4",
+      "intent_detection": "custom_ml_model"
+    },
+    "personalization": {
+      "style": "professional_data_driven",
+      "depth": "high",
+      "compliance_level": "financial_services"
+    }
+  },
+  "channels": {
+    "primary": ["email", "linkedin"],
+    "secondary": ["direct_mail", "events"],
+    "prohibited": ["cold_calling"],
+    "channel_config": {
+      "email": {
+        "max_sequence_length": 5,
+        "optimal_send_times": ["Tuesday 10:00", "Thursday 14:00"],
+        "personalization_required": true
+      },
+      "linkedin": {
+        "connection_message_required": true,
+        "follow_up_sequence": 3,
+        "content_type": "professional_insights"
+      }
+    }
+  },
+  "scoring_models": {
+    "financial_health": {
+      "weights": {
+        "revenue_growth": 0.25,
+        "profitability": 0.20,
+        "cash_flow": 0.20,
+        "debt_ratio": 0.15,
+        "payment_history": 0.20
+      },
+      "threshold": 0.70
+    },
+    "intent_detection": {
+      "signal_weights": {
+        "pricing_page_visit": 0.35,
+        "rate_sheet_download": 0.40,
+        "competitor_research": 0.25
+      },
+      "decay_factor": 0.1,
+      "minimum_confidence": 0.6
+    }
+  },
+  "performance_targets": {
+    "engagement_rate_improvement": 2.5,
+    "conversion_rate_improvement": 1.6,
+    "pipeline_value_multiplier": 4.0,
+    "sales_cycle_reduction": 0.35
+  }
+}

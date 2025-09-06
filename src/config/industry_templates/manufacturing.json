@@ -1,0 +1,27 @@
+{
+  "industry": "manufacturing",
+  "characteristics": {
+    "typical_revenue_range": "£1M-£50M",
+    "decision_cycle": "6-12 months",
+    "key_personas": ["CEO", "CFO", "Operations Director"],
+    "communication_style": "data_driven_conservative"
+  },
+  "pain_points": [
+    "equipment_financing",
+    "expansion_capital", 
+    "supply_chain_financing",
+    "working_capital_optimization"
+  ],
+  "value_propositions": [
+    "Fast funding decisions for equipment purchases",
+    "Flexible terms for seasonal cash flow",
+    "Industry expertise and case studies",
+    "Supply chain financing solutions"
+  ],
+  "content_themes": [
+    "operational_efficiency",
+    "growth_and_expansion",
+    "cash_flow_management",
+    "competitive_advantage"
+  ]
+}
